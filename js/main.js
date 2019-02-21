@@ -52,6 +52,9 @@
 
 		// Back To Top Appear
 		wScroll > 700 ? $('#back-to-top').fadeIn() : $('#back-to-top').fadeOut();
+
+		// Back To Top Appear
+		wScroll > 700 ? $('#whatsapp-go').fadeIn() : $('#whatsapp-go').fadeOut();
 	});
 
 	///////////////////////////
