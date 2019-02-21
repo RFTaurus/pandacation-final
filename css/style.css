@@ -135,6 +135,8 @@ ul, ol {
 }
 
 
+
+
 /* --  background section  -- */
 
 .bg-grey {
@@ -1465,7 +1467,7 @@ header {
 \*------------------------------------*/
 
 #footer {
-    position: relative;
+    position: bottom;
 }
 
 .footer-logo {
@@ -1506,6 +1508,9 @@ header {
     margin: 0;
 }
 
+.footer-form{
+    display: none;
+}
 
 /*------------------------------------*\
 	Responsive
@@ -1682,7 +1687,7 @@ header {
 \*------------------------------------*/
 
 #whatsapp-go {
-    display:block;
+    display:none;
     position: fixed;
     bottom: 80px;
     right: 20px;
