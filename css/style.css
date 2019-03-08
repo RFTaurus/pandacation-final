@@ -881,6 +881,32 @@ header {
 }
 
 /*------------------------------------*\
+	FAQ
+\*------------------------------------*/
+
+.feature-content-faq{
+    margin-left: 10%;
+}
+
+.faq-section{
+    margin: 3% auto;
+}
+
+.feature .faq {
+    color: #0bb89e;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.feature .feature-faq p{
+    font-size: 1em;
+}
+
+.feature-faq {
+    margin: 5% 2%;
+}
+
+/*------------------------------------*\
 	Numbers
 \*------------------------------------*/
 
@@ -1542,11 +1568,33 @@ header {
 }
 
 /*------------------------------------*\
+	Web-Mobile Img
+\*------------------------------------*/
+
+.web-img{
+    display: block;
+}
+
+.mobile-img{
+    display: none;
+}
+
+/*------------------------------------*\
 	Responsive
 \*------------------------------------*/
 
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+
+    .web-img{
+        display: none;
+    }
+    
+    .mobile-img{
+        display: block;
+    }
+    
+}
 
 @media only screen and (max-width: 767px) {
   .section-header h2.title {
