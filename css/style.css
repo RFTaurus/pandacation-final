@@ -1736,32 +1736,65 @@ header {
     background: #0bb89e;
 }
 
-
 /*------------------------------------*\
-	Back to top
+	faq-go
 \*------------------------------------*/
 
-#back-to-top {
-  	display:none;
-  	position: fixed;
-  	bottom: 20px;
-  	right: 20px;
-  	width: 50px;
-  	height: 50px;
-  	line-height: 50px;
-  	text-align: center;
-  	background: #0bb89e;
-  	border-radius:50px;
-  	color: #FFF;
-  	z-index: 9999;
+#faq-go {
+    display:none;
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #0bb89e;
+    border-radius:50px;
+    color: #FFF;
+    z-index: 9999;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
-  	cursor: pointer;
+    cursor: pointer;
 }
 
-#back-to-top:hover {
-    opacity: 0.8;
+#faq-go:hover {
+  opacity: 0.8;
 }
+
+#faq-go a {
+    color: aliceblue;
+  }
+
+/*------------------------------------*\
+	contact-go
+\*------------------------------------*/
+
+#contact-go {
+    display:none;
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #0bb89e;
+    border-radius:50px;
+    color: #FFF;
+    z-index: 9999;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    cursor: pointer;
+}
+
+#contact-go:hover {
+  opacity: 0.8;
+}
+
+#contact-go a {
+    color: aliceblue;
+  }
 
 /*------------------------------------*\
 	Whatsapp-go
@@ -1792,6 +1825,32 @@ header {
 #whatsapp-go a {
     color: aliceblue;
   }
+
+/*------------------------------------*\
+	Back to top
+\*------------------------------------*/
+
+#back-to-top {
+    display:none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #0bb89e;
+    border-radius:50px;
+    color: #FFF;
+    z-index: 9999;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+  opacity: 0.8;
+}
 
 /*------------------------------------*\
 	Google-Form

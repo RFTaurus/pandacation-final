@@ -51,6 +51,12 @@
 		wScroll > 1 ? $('#nav').addClass('fixed-nav') : $('#nav').removeClass('fixed-nav');
 
 		// Back To Top Appear
+		wScroll > 700 ? $('#faq-go').fadeIn() : $('#faq-go').fadeOut();
+
+		// Back To Top Appear
+		wScroll > 700 ? $('#contact-go').fadeIn() : $('#contact-go').fadeOut();
+
+		// Back To Top Appear
 		wScroll > 700 ? $('#back-to-top').fadeIn() : $('#back-to-top').fadeOut();
 
 		// Back To Top Appear
